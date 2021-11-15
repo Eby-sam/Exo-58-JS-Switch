@@ -1,9 +1,13 @@
+let fruits = prompt('plutot Banana ou Apple');
+switch (fruits) {
+    case "Banana":
+        alert("Hello");
+        break;
 
-(fruits) {
-    "Banana":
-    alert("Hello")
-    break;
-    "Apple":
-    alert("Welcome")
-    break;
+    case "Apple":
+        alert("Welcome");
+        break;
+
+    default :
+        alert('aucun des deux !!!');
 }
